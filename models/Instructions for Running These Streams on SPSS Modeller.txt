@@ -1,0 +1,25 @@
+Blood Bank Transfusion Service Center
+
+The initial file downloaded for the UCI Machine Learning Repository was named "Blood Transfusion Service Center." 
+The link for the original source of the data is http://archive.ics.uci.edu/ml/machine-learning-databases/blood-transfusion/
+
+
+We named the downloaded version of this data "transfusion.txt."
+
+
+There are 4 streams, one for each classification model type. 
+They are named: annadvance.str, bayesian.str, decisiontree.str, and SVM.str. All four were used for training, and the 
+final test was run on the decisiontree.str. 
+
+
+When you first open each stream on a new computer, you will need to tell the computer where to find the data file. 
+You do this by double clicking the external file node in the stream (labeled transfusion.txt). 
+A dialogue box will appear. In the dialogue box in the File Tab, set the import file location to the file on your computer 
+(the file is also named transfusion.txt). Then select the Type Tab in the same dialogue box.  Select "Clear Values," "Read Values," apply, OK. 
+You are now ready to use the stream.
+
+
+To run the stream, press the green triangle button labeled "Run The Current Stream" from the menu bar above the canvas. 
+This will update all the gem node with the information created during that run of the models. 
+To only run one specific model, double click that model hexagon and select Run.
+
